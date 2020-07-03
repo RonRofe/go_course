@@ -27,4 +27,8 @@ func main() {
 
 	fmt.Println(b)
 	fmt.Printf("%T\n", b)
+
+	y = int(b)
+
+	fmt.Println(y)
 }

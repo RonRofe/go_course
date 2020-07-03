@@ -4,14 +4,14 @@ import (
 	"fmt"
 )
 
-var y = 42
-var z = "test of Z"
-var a = `James said
-
-"Hello world"`
-
-var defStr string
-var defInt int
+var boo bool
+var in int
+var flo float64
+var in8 int8
+var same1 uint8
+var same2 byte
+var oto1 int32
+var oto2 rune
 
 func main() {
 	fmt.Println(y)
