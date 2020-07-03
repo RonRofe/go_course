@@ -1,0 +1,1 @@
+# GOLang course content
