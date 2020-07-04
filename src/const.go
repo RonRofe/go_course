@@ -4,9 +4,11 @@ import (
 	"fmt"
 )
 
-const a = 42
-const b = 42.78
-const c = "James Bond"
+const (
+	a = 42
+	b = 42.78
+	c = "James Bond"
+)
 
 func main() {
 	fmt.Println(a)
