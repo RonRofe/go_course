@@ -18,7 +18,13 @@ func main() {
 	// fmt.Println(v)
 	// fmt.Println(ok)
 
-	if v, ok := m["Albert"]; ok {
-		fmt.Println("THIS IS THE IF PRINT", v)
+	// if v, ok := m["Albert"]; ok {
+	// 	fmt.Println("THIS IS THE IF PRINT", v)
+	// }
+
+	m["ron"] = 23
+
+	for k, v := range m {
+		fmt.Println(k, v)
 	}
 }
