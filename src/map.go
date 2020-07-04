@@ -11,4 +11,6 @@ func main() {
 	}
 
 	fmt.Println(m)
+
+	fmt.Println(m["Albert"])
 }
