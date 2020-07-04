@@ -5,7 +5,9 @@ import (
 )
 
 func main() {
-	for i := 0; i < 100; i++ {
-		fmt.Println(i)
+	for i := 0; i <= 10; i++ {
+		for j := 0; j < 3; j++ {
+			fmt.Printf("Out: %d/t Inner: %d\n", i, j)
+		}
 	}
 }
