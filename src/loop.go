@@ -19,15 +19,29 @@ func main() {
 	// }
 
 	// fmt.Println()
-	
+
+	// x := 0
+	// for {
+	// 	if x >= 10 {
+	// 		break
+	// 	}
+	// 	fmt.Printf("%x\t", x)
+	// 	x++
+	// }
+
+	// fmt.Println()
+
 	x := 0
 	for {
-		if x >= 10 {
-			break
-		}
-		fmt.Printf("%x\t", x)
 		x++
-	}
+		if x > 100 {
+			break;
+		}
 
-	fmt.Println()
+		if x%2 != 0 {
+			continue
+		}
+
+		fmt.Println(x)
+	}
 }
