@@ -10,11 +10,15 @@ func main() {
 		"Shoshan Sra": 54,
 	}
 
-	fmt.Println(m)
-	fmt.Println(m["Albert"])
+	// fmt.Println(m)
+	// fmt.Println(m["Albert"])
 
-	v, ok := m["Shoara"]
+	// v, ok := m["Shoara"]
 
-	fmt.Println(v)
-	fmt.Println(ok)
+	// fmt.Println(v)
+	// fmt.Println(ok)
+
+	if v, ok := m["Albert"]; ok {
+		fmt.Println("THIS IS THE IF PRINT", v)
+	}
 }
