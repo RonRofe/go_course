@@ -31,5 +31,5 @@ func main() {
 	// 	age:   34,
 	// }
 
-	fmt.Println(sa1.first, sa1.last, sa1.age, sa1.ltk)
+	fmt.Println(sa1.first, sa1.last, sa1.person.age, sa1.ltk)
 }
