@@ -12,4 +12,9 @@ func foo(name string) bool {
 func main() {
 	success := foo("Ron")
 	fmt.Println(success)
+	fmt.Println(multi(1, 1.34))
+}
+
+func multi(a int, b float64) (int, float64) {
+	return a, b
 }
