@@ -11,6 +11,10 @@ func main() {
 	}
 
 	fmt.Println(m)
-
 	fmt.Println(m["Albert"])
+
+	v, ok := m["Shoara"]
+
+	fmt.Println(v)
+	fmt.Println(ok)
 }
