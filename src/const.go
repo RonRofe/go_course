@@ -5,9 +5,9 @@ import (
 )
 
 const (
-	a = 42
-	b = 42.78
-	c = "James Bond"
+	a int     = 42
+	b float64 = 42.78
+	c string  = "James Bond"
 )
 
 func main() {
