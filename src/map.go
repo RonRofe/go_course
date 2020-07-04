@@ -24,6 +24,8 @@ func main() {
 
 	m["ron"] = 23
 
+	delete(m, "Albert")
+
 	for k, v := range m {
 		fmt.Println(k, v)
 	}
