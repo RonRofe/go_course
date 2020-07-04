@@ -17,8 +17,8 @@ func main() {
 		fmt.Printf("%#U ", s[i])
 	}
 
-	fmt.Println();
-	
+	fmt.Println()
+
 	for i, v := range s {
 		fmt.Printf("At index position: %d we have hex %#x\n", i, v)
 	}
