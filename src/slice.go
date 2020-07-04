@@ -7,7 +7,7 @@ import (
 func main() {
 	x := []int{1, 3, 4, 5}
 
-	// fmt.Println(x)
+	fmt.Println(x)
 	// fmt.Println(len(x))
 	// fmt.Println(x[0])
 
@@ -15,6 +15,15 @@ func main() {
 	// 	fmt.Println(i, v)
 	// }
 
-	fmt.Println(x[1:])
-	fmt.Println(x[1:3])
+	// fmt.Println(x[1:])
+	// fmt.Println(x[1:3])
+
+	x = append(x, 77, 88, 99, 1014)
+
+	fmt.Println(x)
+
+	y := []int{0, 0, 0, 0}
+
+	x = append(x, y...)
+	fmt.Println(x)
 }
