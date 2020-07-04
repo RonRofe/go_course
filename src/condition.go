@@ -22,5 +22,7 @@ func main() {
 		fallthrough
 	case 3 == 1:
 		fmt.Println("This wont be printed without fallthrough keyword 2")
+	default:
+		fmt.Println("Default print")
 	}
 }
