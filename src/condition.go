@@ -11,16 +11,18 @@ func main() {
 		fmt.Println("1 is not 1")
 	}
 
-	switch {
-	case false:
+	n := 3
+
+	switch n {
+	case 1:
 		fmt.Println("This wont be printed")
-	case 1 == 1:
+	case 3:
 		fmt.Println("This will be printed")
 		fallthrough
-	case 1 == 5:
+	case 5:
 		fmt.Println("This wont be printed without fallthrough keyword 1")
 		fallthrough
-	case 3 == 1:
+	case 4:
 		fmt.Println("This wont be printed without fallthrough keyword 2")
 	default:
 		fmt.Println("Default print")
