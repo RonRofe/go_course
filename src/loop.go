@@ -35,7 +35,7 @@ func main() {
 	for {
 		x++
 		if x > 100 {
-			break;
+			break
 		}
 
 		if x%2 != 0 {
